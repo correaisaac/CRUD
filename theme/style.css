@@ -1,0 +1,44 @@
+body{
+    background-color: #023436;
+}
+
+.header {
+    background-color: #049A8F;
+    padding: 0px;
+    text-align: center;
+    margin-bottom: 200px;
+}
+
+.titulo{
+    text-align: center;
+    font-size: 50px;
+    color: #07DFD1;
+    padding: 10px 20px 10px;
+}
+
+#welcome{
+    text-align: center;
+    color: #5FCB8D;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.center{
+    text-align: center;
+}
+
+.button{
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #049A8F;
+    text-decoration: none; 
+    border-radius: 15px;
+    transition: background-color 0.3s;
+    border: 3px solid black;
+}
+
+.button:hover {
+    background-color: #037971;
+}
