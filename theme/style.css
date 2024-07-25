@@ -1,42 +1,48 @@
-body{
+body {
     background-color: #023436;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.header {
+header {
     background-color: #049A8F;
-    padding: 0px;
+    padding: 10px 0px 10px;
+    color: white;
     text-align: center;
-    margin-bottom: 200px;
+    height: 40px;
 }
 
-.titulo{
-    text-align: center;
-    font-size: 50px;
-    color: #07DFD1;
-    padding: 10px 20px 10px;
+.titulo {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin: 0 15px;
 }
 
-#welcome{
+#welcome {
     text-align: center;
     color: #5FCB8D;
     margin-top: 50px;
     margin-bottom: 50px;
 }
 
-.center{
+.center {
     text-align: center;
 }
 
-.button{
+.button {
     display: inline-block;
     padding: 10px 20px;
     font-size: 16px;
     color: white;
     background-color: #049A8F;
-    text-decoration: none; 
+    text-decoration: none;
     border-radius: 15px;
     transition: background-color 0.3s;
-    border: 3px solid black;
+    border: 2px solid black;
 }
 
 .button:hover {
