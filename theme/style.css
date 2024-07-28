@@ -9,7 +9,7 @@ body {
     box-sizing: border-box;
 }
 
-.header {
+header {
     background-color: #049A8F;
     padding: 10px 0px 10px;
     text-align: center;
@@ -41,6 +41,7 @@ body {
     font-size: 16px;
     color: white;
     background-color: #049A8F;
+    text-decoration: none;
     text-decoration: none;
     border-radius: 15px;
     transition: background-color 0.3s;
