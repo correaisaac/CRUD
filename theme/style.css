@@ -1,44 +1,67 @@
-body{
+body {
     background-color: #023436;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
 }
 
 .header {
     background-color: #049A8F;
-    padding: 0px;
+    padding: 10px 0px 10px;
     text-align: center;
     margin-bottom: 200px;
-}
-
-.titulo{
-    text-align: center;
-    font-size: 50px;
+    height: 100px;
+    font-size: 20px;
     color: #07DFD1;
-    padding: 10px 20px 10px;
 }
 
-#welcome{
+.title {
     text-align: center;
     color: #5FCB8D;
     margin-top: 50px;
     margin-bottom: 50px;
 }
 
-.center{
-    text-align: center;
+.center {
+    display: inline-block;
 }
 
-.button{
-    display: inline-block;
-    padding: 10px 20px;
+.loginRegister {
+    width: 300px;
+    margin: 200px auto;
+    text-align: center;
+    justify-content: center;
+}
+
+.button {
     font-size: 16px;
     color: white;
     background-color: #049A8F;
-    text-decoration: none; 
+    text-decoration: none;
     border-radius: 15px;
     transition: background-color 0.3s;
     border: 3px solid black;
+    display: block;
+    margin: 10px auto;
 }
 
 .button:hover {
     background-color: #037971;
+}
+
+form {
+    width: 300px;
+    margin: 200px auto;
+    text-align: center;
+}
+
+input {
+    display: block;
+    margin: 10px auto;
+    width: 250px;
+    height: 30px;
 }
