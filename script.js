@@ -3,8 +3,7 @@ function logar() {
     var senha = document.getElementById('senha').value;
 
     if (login == 'admin' && senha == 'admin') {
-        alert('Bem vindo');
-        window.location.href = "./main-menu.html";
+        window.location.href = "main-menu.html";
     } else {
         alert('Usuário ou senha incorretos');
     }
