@@ -9,4 +9,8 @@ Para a modelagem eu utilizei o figma, já no código estou utilizando apenas htm
 link do modelo no figma: https://www.figma.com/design/lUGqmthxdCHjTpz9I3SRVf/Hiper-Foco?node-id=0-1&t=Sya9skvQGvdoAnmx-1
 
 # Autor
-Isaac Corrêa De Oliveira
+Isaac Corrêa De Oliveira <p />
+Conato:
+- correaisaac25@gmail.com
+- (93) 99231-5016
+
