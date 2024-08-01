@@ -27,7 +27,7 @@ header {
 }
 
 .center {
-    display: inline-block;
+    display: flex;
 }
 
 .loginRegister {
